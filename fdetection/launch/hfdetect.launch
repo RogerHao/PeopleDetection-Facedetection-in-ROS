@@ -1,0 +1,7 @@
+<launch>
+	<group	ns="version1">
+		<node	pkg="image_node_a"	name="Clip_input"	type="image_node_a"/>
+		<node	pkg="image_node_b"	name="Human_detect"	type="image_node_b"/>
+		<node	pkg="fdetection"	name="Face_detect"	type="fdetect"/>
+	</group>
+</launch>
